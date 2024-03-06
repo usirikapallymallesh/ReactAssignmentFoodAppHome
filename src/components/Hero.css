@@ -1,0 +1,92 @@
+.hero {
+  background: url(./../assets/hero-section.avif);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  /* border: 2px solid red; */
+}
+.hero-text {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 9rem;
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+.hero-text > .color-black {
+  color: black;
+  /* border: 2px solid; */
+  font-size: 2.8rem;
+  line-height: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+.hero-text > .color-red {
+  color: #d30031;
+  /* border: 2px solid; */
+  font-size: 2.8rem;
+  line-height: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+.hero-text > p {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  /* font-weight: 500; */
+  text-align: center;
+  line-height: 2rem;
+  word-spacing: 2px;
+}
+.buttons {
+  /* border: 2px solid ; */
+  width: 100%;
+  /* height: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.buttons > button {
+  /* border: 2px solid; */
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  padding: 0.7rem 2.9rem;
+}
+.buttons > button:first-child {
+  background-color: #cc3457;
+  color: white;
+}
+
+.buttons > button:first-child:hover {
+  background-color: #be133c;
+  color: white;
+}
+
+.buttons > button:last-child {
+  /* background-color: #; */
+  color: #ee9837;
+}
+
+.buttons > button:last-child:hover {
+  background-color: white;
+  color: #be133c;
+}
+.hero-img {
+  width: 50%;
+  /* border: 2px solid; */
+}
