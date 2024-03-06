@@ -1,4 +1,5 @@
 ### [click to open the Food App /Home](https://65e8524f00156405aae09a32--stellular-praline-f3c255.netlify.app/)
+### [click to open the Food App /Quote](https://65e8c17bf661f13ea146a0b0--elaborate-klepon-4be3b4.netlify.app/)
 
 # Getting Started with Create React App
 
